@@ -158,39 +158,6 @@ section{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .why_us_section {
     max-width: 712px;
     margin-left: auto;
@@ -248,7 +215,7 @@ margin-bottom: 15px;
 }
 .why_us_list > li::before{
     content: "";
-    background: url(/img/vector.svg);
+    background: url(../img/vector.svg);
     width: 27px;
     height: 27px;
     margin-bottom: -6px;
@@ -304,7 +271,7 @@ margin-bottom: 16px;
 }
 .we_care_list > li > div::before{
     content: "";
-    background: url(./img/vector.svg);
+    background: url(../img/vector.svg);
     width: 27px;
     height: 27px;
 }
