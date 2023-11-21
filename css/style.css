@@ -235,7 +235,7 @@ font-weight: 600;
 margin-bottom: 15px;
 }
 .benefits{
-    max-width: 332px;
+    max-width: 330px;
     display: inline-block;
     margin-left: 25px;
 }
@@ -304,7 +304,7 @@ margin-bottom: 16px;
 }
 .we_care_list > li > div::before{
     content: "";
-    background: url(/img/vector.svg);
+    background: url(./img/vector.svg);
     width: 27px;
     height: 27px;
 }
