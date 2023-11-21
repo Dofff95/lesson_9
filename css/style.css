@@ -1,0 +1,510 @@
+@import url(./reset.css);
+@import url(./fonts.css);
+
+h1{
+    font-size: 25px;
+    text-align: center;
+    color: #000;
+
+}
+section{
+    margin-bottom: 100px;
+    outline: 1px solid red;
+}
+*{
+    color: #7D7D7D;
+    font-family: Inter;
+    line-height: 1.27;
+}
+
+
+
+/* ==================================================================================== */
+.box_conteiner{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 800px;
+    height: 450px;
+    outline: 1px solid brown;
+    padding-top: 20px;
+}
+.test_section::after{
+    content: "Текст після блоку";
+}
+.test_section::before{
+    content: "Текст до блоку";
+}
+.box_conteiner >div{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    outline: 1px solid black;
+    margin: 5px;
+}
+.box_conteiner >div:nth-child(3n+2){
+    background-color: red;
+}
+.box_conteiner >div:nth-child(3n+3){
+    background-color: rgb(124, 6, 6);
+}
+.box_conteiner >div:nth-child(3n+4){
+    background-color: brown;
+}
+.box_conteiner >div:first-child{
+    background-color: green;
+}
+.box_conteiner >div:last-child{
+    background-color: violet;
+}
+.box_conteiner > div:hover {
+    background-color: greenyellow;
+}
+.box_conteiner >div:hover:nth-child(9){
+    background-color: blue;
+}
+
+.box_conteiner > a {
+    color: white    ;
+    text-align: center;
+    background-color: rgb(61, 61, 143);
+    padding: 15px 30px; 
+    border-radius: 10px;
+}
+.box_conteiner > a:hover,
+.box_conteiner > a:focus,
+.box_conteiner > a:active{
+    background-color: blue;
+}
+
+/* ============================================================================================= */
+
+
+.game_section{
+    width: 1280px;
+    height: 60px;
+    outline: none;
+}
+.game > div{
+    display: inline-block;
+    vertical-align: top;
+}
+.game_item_1 {
+    width: 100px;
+    height: 50px;
+    background-color: yellowgreen;
+}
+.game_item_1 > p{
+    color: #FFF;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 10%;
+}
+.game_item_1:hover + .game_item_2,
+.game_item_2:hover{
+        background-color: green;
+}
+.game_item_2 {
+    width: 80%;
+    height: 40px;
+}
+.game_item_3 {
+    width: 5%;
+    height: 200px;
+}
+.game_item_3:hover{
+    background-color: green;
+}
+.game_item_4 {
+    width: 7%;
+    height: 700px;
+}
+.game_item_4:hover {
+    background-color: green;
+}
+.game_item_5 {
+    width: 90%;
+    height: 40px;
+}
+.game_item_5:hover{
+    background-color: green;
+}
+.game_item_6 {
+    width: 40%;
+    height: 50px;
+}
+.game_item_6:hover{
+    background-color: green;
+}
+.game_item_7 {
+    width: 3%;
+    height: 300px;
+}
+.game_item_7:hover{
+    background-color: green;
+}
+.game_item_8 {
+    width: 100%;
+    height: 100px;
+    color: #FFF;
+    font-size: 30px;
+    text-align: center;
+}
+.game_item_8:hover{
+    background-color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.why_us_section {
+    max-width: 712px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+
+}
+.why_us_h2 {
+    color: #37393F;
+font-family: Poppins;
+font-size: 30px;
+font-weight: 600;
+margin-bottom: 3px;
+}
+.why_us_text {
+font-size: 18px;
+line-height: 1.46;
+margin-bottom: 40px;
+}
+.why_blue_title {
+    color: #6B77E5;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 12px;
+}
+.why_green_text {
+    color: #40DDB6;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 21px;
+}
+.our_benefits{
+    margin-bottom: 50px;
+}
+.why_title_h4{
+    color: #37393F;
+font-family: Poppins;
+font-size: 25px;
+font-weight: 600;
+margin-bottom: 15px;
+}
+.benefits{
+    max-width: 332px;
+    display: inline-block;
+    margin-left: 25px;
+}
+.why_us_list > li {
+    font-size: 18px;
+    line-height: normal;
+}
+.why_us_list > li:not(:last-child) {
+    margin-bottom: 30px;
+}
+.why_us_list > li::before{
+    content: "";
+    background: url(/img/vector.svg);
+    width: 27px;
+    height: 27px;
+    margin-bottom: -6px;
+    margin-right: 8px;
+}
+.why_title_h3 {
+    color: #37393F;
+font-family: Poppins;
+font-size: 30px;
+font-weight: 600;
+}
+
+/* ================================================================================================ */
+
+.we_care_section > p{
+    color: #7D7D7D;
+font-family: Inter;
+font-size: 18px;
+line-height: 1.46;
+}
+.we_care_section {
+    max-width: 693px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+}
+.we_care_under_text {
+    color: #37393F;
+font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 16px;
+}
+.we_care_under_text::before{
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-color: #40DDB6;
+    margin-right: 6px;
+}
+.we_care_list{
+    margin-bottom: 48px;
+    margin-top: 48px;
+}
+.we_care_list > li{
+    border: 1px solid #E3E3E3;
+    padding: 28px 40px;
+
+}
+.we_care_list > li:not(:last-child){
+    margin-bottom: 31px;
+}
+.we_care_list > li > div::before{
+    content: "";
+    background: url(/img/vector.svg);
+    width: 27px;
+    height: 27px;
+}
+.we_care_title {
+    color: #37393F;
+font-family: Poppins;
+font-size: 40px;
+font-weight: 700;
+line-height: 1.21;
+max-width: 413px;
+margin-bottom: 10px;
+}
+.h3_card {
+    color: #37393F;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 600;
+line-height: normal;
+    display: inline-block;
+    margin-bottom: 12px;
+}
+.more_btn {
+    width: 200px;
+    height: 65px;
+    background-color: #6B77E5;
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 18px;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+padding: 21px 35px;
+}
+.more_btn:hover,
+.more_btn:focus{
+    background-color: blue;
+}
+
+/* ============================================================== */
+
+.how_we_work_section {
+    width: 1240px;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.work_head_text {
+    text-align: center;
+    color: #37393F;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+.work_head_text::before{
+    content: "";
+    background: #40DDB6;
+    width: 12px;
+    height: 12px;
+    margin-right: 6px;
+}
+.work_title_h2 {
+    color: #37393F;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.21;
+    margin-bottom: 77px;
+}
+.work_item {
+    display: inline-block;
+    max-width: 386px;
+    height: 301px;
+    background: #F4F4F4;
+    padding: 58px 43px;
+    position: relative;
+}
+.work_item:not(:last-child){
+    margin-right: 26px;
+}
+.work_item > h3{
+    color: #37393F;
+text-align: center;
+font-family: Poppins;
+font-size: 25px;
+font-weight: 600;
+line-height: 1.27;
+margin-bottom: 16px;
+}
+.work_item > p{
+    color: #7D7D7D;
+text-align: center;
+font-family: Inter;
+font-size: 18px;
+line-height: 1.46;
+margin-bottom: 37px;
+}
+.work_item > a{
+    color: #6B77E5;
+font-family: Inter;
+font-size: 18px;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.work_item > a:hover,
+.work_item > a:focus{
+    color: blue;
+}
+.work_item > a:visited{
+    color: gray
+}
+/* .work_item > h3:nth-child(1){
+    background: url(/img/calendar.svg) no-repeat center 0; 
+}
+.work_item > h3:nth-child(2){
+    background: url(/img/pazl.svg) no-repeat center 0;
+}
+.work_item > h3:nth-child(3){
+    background: url(/img/tick.svg) no-repeat center 0;
+} */
+.work_item > img{
+    position: absolute;
+    top: -36px;
+    left: 160px;
+    margin-bottom: 22px;
+}
+
+/* ======================================================================= */
+
+
+.custom_jewels_section {
+    max-width: 1235px;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.title_conteiner{
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 150px;
+}
+.jew_title_h2 {
+    color: #000;
+font-family: Cormorant Infant;
+font-size: 60px;
+font-weight: 700;
+line-height: 1.15;
+max-width: 488px;
+display: inline-block;
+}
+.jew_title_h2::after{
+    content: "";
+    background:#78473B;
+    height: 2px;
+    width: 60%;
+    margin-bottom: 40px;
+}
+.jew_conteiner {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 40px;
+}
+.jew_2{
+    padding-top: 0px;
+}
+.jew_conteiner:not(:last-child){
+    margin-right: 45px;
+}
+.jew_conteiner > img{
+    margin-bottom: 25px;
+}
+.jew_h4 {
+    color: #000;
+font-family: Cormorant Infant;
+font-size: 24px;
+font-weight: 700;
+line-height: 1.4;
+}
+.jew_price {
+    color: #000;
+font-family: Cormorant Infant;
+font-size: 24px;
+font-weight: 700;
+line-height: 1.4;
+    
+}
+.jew_h3 {
+    max-width: 339px;
+    display: inline-block;
+    color: #000;
+font-family: Cormorant Infant;
+font-size: 46px;
+font-weight: 700;
+line-height: 1.13;
+}
+.conteiner2{
+    display: block;
+}
